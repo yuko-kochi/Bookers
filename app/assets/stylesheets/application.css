@@ -14,13 +14,9 @@
  *= require_self
  */
  
- * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
+  background-color: #fff;
+  color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
@@ -28,12 +24,43 @@ body {
 }
 
 a {
-  color: #
+  color: #000;
 }
 
+
 p, ol, ul, td {
-    font-family: verdana, arial, helvetica, sans-serif;
-    font-size: 13px;
-    line-height: 18px;
-    margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 33px;
+}
+
+table {
+  display: table;
+  box-sizing: border-box;
+  border-color: grey;
+}
+
+thead {
+    display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+th {
+  padding-bottom: 5px;
+}
+
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.field {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
 }
