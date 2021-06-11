@@ -58,7 +58,7 @@ table {
 }
 
 thead {
-    display: table-header-group;
+  display: table-header-group;
   vertical-align: middle;
   border-color: inherit;
 }
@@ -73,10 +73,6 @@ td {
   padding-right: 5px;
 }
 
-div.field, div.actions {
-  margin-bottom: 10px;
-}
-
 #error_explanation {
   width: 450px;
   border: 2px solid red;
@@ -87,14 +83,14 @@ div.field, div.actions {
 }
 
 #error_explanation h2 {
-    text-align: left;
-    font-weight: bold;
-    padding: 5px 5px 5px 15px;
-    font-size: 12px;
-    margin: -7px;
-    margin-bottom: 0;
-    background-color: #c00;
-    color: #fff;
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0;
+  background-color: #c00;
+  color: #fff;
 }
 
 #error_explanation ul li {
@@ -102,16 +98,16 @@ div.field, div.actions {
   list-style: square;
 }
 
-.field_with_errors {
-  padding: 2px;
-  background-color: red;
-  display: table;
+div.field, div.actions {
+  margin-bottom: 10px;
 }
-
 
 label {
   display: block;
 }
 
-
-
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
