@@ -20,13 +20,14 @@
     <% end %>
 
  <div class="field">
-    <label for="book_title">Title</label>
+   <div class="field">
+    <%= f.label :title, "Title" %>
     <%= f.text_field :title %>
  </div>
  
  <div class="field">
-   <label for="book_body">Body</label>
-   <%= f.text_area :body %>
+  <%= f.label :body, "Body" %>
+  <%= f.text_area :body %>
  </div>
  
  <div class="actions">
